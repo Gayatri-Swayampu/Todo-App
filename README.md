@@ -7,7 +7,7 @@ It lets you create, edit, delete, sort, and filter tasks — with due dates, pri
 
 ## 🚀 **Features**  
 
-- Add tasks with:  
+- **Add** tasks with:  
   - Task name  
   - Due date 📅  
   - Priority (High 🔴, Medium 🟡, Low 🟢)  
