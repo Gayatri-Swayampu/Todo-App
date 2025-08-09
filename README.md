@@ -24,6 +24,6 @@ It lets you create, edit, delete, sort, and filter tasks — with due dates, pri
 
 - **HTML5**  
 - **CSS3**
-- **JavaScript** 
+- **JavaScript**   
 
 ---
