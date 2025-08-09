@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">
+        <h1>Todo App</h1>
+        <p>Keep it up</p>
+        <div class="progress-bar-bg">
+          <div id="progress" class="progress-bar-fill"></div>
+        </div>
+      </div>
+      <div class="counter-circle" id="numbers">0 / 0</div>
+    </div>
+
+    <form id="taskForm" class="task-form">
+      <input id="taskInput" type="text" placeholder="Enter a task..." required />
+      <input id="dueDateInput" type="date" required />
+      <select id="priorityInput" required>
+        <option value="">Priority</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button type="submit" class="add-btn">+</button>
+    </form>
+
+    <div id="filterSortContainer" class="filter-sort">
+      <select id="priorityFilter">
+        <option value="all">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button id="sortDueDate">Sort by Due Date</button>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
